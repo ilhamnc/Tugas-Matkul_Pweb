@@ -1,0 +1,33 @@
+body {
+    margin-top: 30px;
+    background-color:darkslategray;
+    font-family: sans-serif;
+}
+h3 {
+    color: white;
+    font-size: 25px;
+}
+.biodata {
+    padding: 15px;
+    margin: 25px auto;
+    width: 270px;
+    background-color:white;
+    border-radius: 3px;
+}
+label {
+    font-size: 13px;
+}
+input[type="text"], textarea {
+  padding: 8px;
+  width: 95%;
+  background-color:whitesmoke;
+  border: 0;
+  margin: 6px;
+}
+.tombol {
+    margin-top: 4px ;
+    background: darkslategray;
+    color: #fff;
+    border:0;
+    padding: 5px;
+  }

@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    width: 1360px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    letter-spacing: 0.1rem;
+}
+
+#header {
+    display: table-cell;
+    width: 100%;
+    height: 674px;  
+    background-image: url(bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.table {
+    display: table;
+}
+.row {
+    display: table-row;
+}
+
+.sidebar {
+    width: 110px;
+    height: 100%;
+    position: fixed;
+    background-color: #535353;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.navigasi {
+    padding-top: 10px;
+    width: 110px;
+}
+
+a:link {text-decoration: none; color: white;}
+a:visited {color: white;}
+a:hover {color: #18A0FB;}
+
+.content-header {
+    padding-left: 110px;
+    display: table-cell;
+    width: 1250px;
+    height: 674px;
+}
+
+.nama {
+    width: 100%;
+    background-color: #535353;
+}
+
+.sosmed {
+    text-align: left;
+    height: 60px;
+}
+
+.text {
+    padding-top: 212px;
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: transparent;
+}
+
+#main {
+    display: table-cell;
+    width: 100%;
+    height: 2636px;
+}
+
+.profile {
+    width: 1360px;
+    height: 674px;
+}
+
+.tabel-font, .tabel-foto{
+    padding-left: 45px;
+}
+
+.content-profile {
+    padding-top: 50px;
+    padding-left: 246px;
+}
+
+.foto {
+    width: 251px;
+    height: 312px;
+}
+
+.about {
+    padding-left: 50px;
+    width: 262px;
+}
+
+.about p {
+    font-family: Montserrat;
+}
+
+.experience {
+    width: 1360px;
+    height: 674px;
+    background-color: #f2f2f2;
+}
+
+.content-experience {
+    padding-top: 40px;
+    padding-left: 246px;
+}
+
+.experience p, dl{
+    font-family: Montserrat;
+}
+
+.skills {
+    width: 1360px;
+    height: 674px;
+}
+
+.content-skill {
+    padding-top: 30px;
+    padding-left: 246px;
+}
+
+.tabel-skill, .skill {
+    padding-left: 45px;
+}
+
+.contact {
+    width: 1360px;
+    height: 590px;
+    background-color: #f2f2f2;
+}
+
+.content-contact {
+    padding-top: 50px;
+    padding-left: 260px;
+}
+
+.content-contact form {
+    font-family: montserrat;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.content-contact form h1 {
+    color: #18A0FB;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.content-contact form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 13px;
+    outline: #C4C4C4;
+    font-size: 16;
+
+}
+
+.content-contact form button {
+    padding: 15px;
+    background: #18A0FB;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px;
+    margin-left: 600px;
+    border-radius: 30px;
+}
+
+.footer {
+    width: 1360px;
+}
+
+.content-footer {
+    width: 1360px;
+    height: 50px;
+    padding-left: 110px;
+    background-color: #535353;
+    color: white;
+}

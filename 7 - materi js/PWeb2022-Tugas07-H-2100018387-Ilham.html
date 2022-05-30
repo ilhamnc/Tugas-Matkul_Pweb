@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Tugas07</title>
+        <link rel="stylesheet" href="tugas07.css">
+        <script>
+            function simpan() {
+                var nama = document.getElementById("nama").value;
+                var nim = document.getElementById("nim").value;
+                var prodi = document.getElementById("prodi").value;
+                var kelas = document.getElementById("kelas").value;
+                var jenis = document.getElementById("jenis").value;
+                var alamat = document.getElementById("alamat").value;
+                if(nama != "" && nim != "" && prodi != "" && kelas != "" && jenis != "" && alamat != "") {
+                    return true;
+                } else {
+                    alert("Isi data dengan lengkap !");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <center><h3>Form Biodata</h3></center>
+        <div class="biodata">
+            <form action="#" method="post" onsubmit="simpan()">
+            <div>
+                <label>Nama : </label>
+                <input type="text" name="nama" id="nama" placeholder="Masukkan Nama">
+            </div>
+            <div>
+                <label>NIM : </label>
+                <input type="text" name="nim" id="nim" placeholder="Masukkan NIM">
+            </div>
+            <div>
+                <label>Prodi : </label>
+                <input type="text" name="prodi" id="prodi" placeholder="Masukkan Prodi">
+            </div>
+            <div>
+                <label>Kelas : </label>
+                <input type="text" name="kelas" id="kelas" placeholder="Masukkan Kelas">
+            </div>
+            <div>
+                <label>Jenis Kelamin : </label>
+                <input type="text" name="jenis" id="jenis" placeholder="Masukkan Jenis Kelamin">
+            </div>
+            <div>
+                <label>Alamat : </label>
+                <textarea name="alamat" cols="30" rows="5" id="alamat" placeholder="Masukkan Alamat"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Simpan" class="tombol">
+                <input type="reset" value="Bersihkan" class="tombol">
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
